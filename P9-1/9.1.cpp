@@ -24,7 +24,7 @@ while (i < 10) {
 	cout << values[i] << " ";
 	i++;
 }
-cout << endl << "Even indices:  	     " << values[1] <<" "<< values[3] << " " << values[5] << " " << values[7] << " " << values[9]<<endl;
+cout << endl << "Even indices:  	     " << values[0] <<" "<< values[2] << " " << values[4] << " " << values[6] << " " << values[8]<<endl;
 
 cout << "Even values:         ";
 if (values[0]%2==0)
