@@ -48,5 +48,5 @@ cout << values[8] << " ";
 if (values[9] % 2 == 0)
 cout << values[9] << " ";
 
-
+cout << endl<<"Reversed order       " << values[9] << " " << values[8] << " " << values[7] << " " << values[6] << " " << values[5] << " " << values[4] << " " << " " << values[3] << " " << values[2] << " " << values[1] << " " << values[0];
 }
