@@ -19,9 +19,12 @@ values[7] = (rand() % 8999) + 999;
 values[8] = (rand() % 8999) + 999;
 values[9] = (rand() % 8999) + 999;
 
+cout << "The random integers: ";
 while (i < 10) {
-	cout << values[i] << endl;
+	cout << values[i] << " ";
 	i++;
 }
+cout << endl << "Even indices:  	     " << values[1] <<" "<< values[3] << " " << values[5] << " " << values[7] << " " << values[9];
+
 
 }
